@@ -1,0 +1,57 @@
+button.button {
+  box-shadow: none;
+  border-radius: 2px;
+  border: none;
+  background: #2880ff;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  height: 32px;
+  padding: 7px 12px 8px;
+  cursor: pointer;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+button.button.primary {
+  background: #2880ff;
+}
+button.button.primary:hover {
+  background-color: #2473e6;
+}
+button.button.primary:active {
+  background-color: #2066cc;
+}
+
+button.button.negative {
+  background: #e04a4a;
+}
+button.button.negative:hover {
+  background: #ca4242;
+}
+button.button.negative:active {
+  background: #b33b3b;
+}
+
+button.button.secondary {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.8);
+  border-radius: 3px;
+}
+
+button.button.secondary:hover {
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.06);
+}
+button.button.secondary:active {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+button.button:disabled,
+button.button:disabled:active,
+button.button:disabled:focus,
+button.button:disabled:hover {
+  background: rgba(0, 0, 0, 0.2);
+  cursor: not-allowed;
+}

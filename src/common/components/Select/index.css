@@ -1,0 +1,46 @@
+.select.ui-kit .input.ui-kit {
+  border: none;
+  padding: 7px 11px;
+  margin: 0;
+}
+
+.select.ui-kit.rc-select .rc-select-selection,
+.select.ui-kit.rc-select .rc-select-selection:hover {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  font-size: 14px;
+  line-height: 1.29;
+  height: auto;
+  padding: 1px;
+  box-shadow: none;
+  border-radius: 2px;
+}
+
+.select.ui-kit.rc-select .rc-select-selection__rendered {
+  height: auto;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+}
+
+.select.ui-kit.rc-select-focused .rc-select-selection,
+.select.ui-kit.rc-select-focused .rc-select-selection:hover {
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.2);
+  padding: 0;
+  box-shadow: none;
+}
+
+.select-dropdown.ui-kit {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0px 4px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+}
+
+.select-dropdown.ui-kit li.rc-select-dropdown-menu-item {
+  padding: 8px 12px;
+}
+
+.select-dropdown.ui-kit li.rc-select-dropdown-menu-item-active {
+  background-color: #2880ff;
+}

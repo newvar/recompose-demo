@@ -1,0 +1,25 @@
+textarea.ui-kit {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  outline: none;
+  font-size: 14px;
+  line-height: 1.29;
+  padding: 8px 12px;
+  border-radius: 2px;
+}
+
+textarea.ui-kit:focus,
+textarea.ui-kit.invalid.touched:focus {
+  border-width: 2px;
+  border-color: rgba(0, 0, 0, 0.2);
+  padding: 7px 11px;
+}
+
+textarea.ui-kit::placeholder {
+  font-size: 14px;
+  line-height: 1.29;
+  color: rgba(0, 0, 0, 0.4);
+}
+
+textarea.ui-kit.invalid.touched {
+  border: 1px solid #eabfbf;
+}

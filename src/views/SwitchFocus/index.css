@@ -1,0 +1,11 @@
+.switch-focus {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 300px;
+}
+
+.switch-focus > * {
+  margin-bottom: 10px;
+}

@@ -1,0 +1,6 @@
+input.ui-kit.checkbox:focus {
+  outline-style: dashed;
+  outline-offset: 2px;
+  outline-color: rgba(41, 127, 255, 0.5);
+  outline-width: 1px;
+}

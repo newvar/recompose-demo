@@ -1,23 +1,6 @@
 import { combineReducers } from 'redux'
-/*
-import {
-  reducer as auth,
-  AUTH,
-} from 'services/auth'
-*/
-/*
-import {
-  reducer as stream,
-} from 'domains/stream'
-*/
 
 export const makeRootReducer = asyncReducers => combineReducers({
-  //[AUTH]: auth,
-  /*
-  domains: {
-    stream,
-  },
-  */
   ...asyncReducers
 })
 
